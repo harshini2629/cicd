@@ -38,3 +38,28 @@ wget https://www.tooplate.com/zip-templates/2137_barista_cafe.zip
 unzip 2137_barista_cafe.zip 
 ls -l
 docker exec -it dev_container /bin/bash
+mkdir neeru
+cd neeru 
+touch s1 s2 s3
+cd ..
+git init
+git status
+git status -s
+git add.
+git add .
+git status -s
+git commit -m "commit 2"
+git push origin master
+adduser harshi
+su - harshi
+wget https://www.tooplate.com/zip-templates/2094_mason.zip
+unzip 2094_mason.zip 
+ls -al
+git init
+git add .
+git status -s
+git commit -m "commit 1"
+
+git commit -m "commit 1"
+git remote add origin https://github.com/harshini2629/cicd.git
+git push origin master 
